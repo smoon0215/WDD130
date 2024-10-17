@@ -1,0 +1,36 @@
+body{
+    background: lavenderblush;
+    font-family: "Abril Fatface", serif;
+}
+
+.boxtype1, .boxtype2, .boxtype3{
+    box-sizing: border-box;
+}
+
+.boxtype1{
+    margin:20px;
+    border: 10px dashed darkcyan;
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 500px;
+    background: wheat;
+}
+
+.boxtype2{
+    margin:20px;
+    border: 15px double darkslateblue;
+    border-radius: 5px;
+    padding: 20px 10px;
+    width: 500px;
+    background: wheat;
+    font-family: "Great Vibes"
+}
+
+.boxtype3{
+    margin:20px;
+    border: 7px dotted navy;
+    border-radius: 25px;
+    padding: 40px 20px;
+    width: 500px;
+    background: wheat;
+}
