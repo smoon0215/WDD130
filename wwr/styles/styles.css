@@ -1,9 +1,24 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+:root{
+  --heading-font: "Noto Serif Display";
+  --paragraph-font: Assistant, Helvetica, sans-serif;
+  font-size: 22px;
+}
 body{
     background-color: white;
+    font-family: Assistant, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,23 +37,33 @@ header{
 }
 .home-title{
     color:#A3B26C; /*subject to change */
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 nav a{
     text-align: center;
     color: #40798C; 
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     color:#F4EDD3;
     background-color: #283618;
 }
+h2{
+    margin:0;
+}
 h4{
     color:#A3B26C;   
 }
 .book, .join{
-    color: #40798C; /* make it not underlined*/
+    color: #40798C; 
     background-color:#F4EDD3;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color:#F4EDD3;
@@ -46,16 +71,28 @@ h4{
 }
 .msg{
     background-color: #40798C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: black
 }
 .msg p{
-    color:black
+    color:black;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px #283618 solid;
+    max-width: 700px;
 }
 footer{
     color: #F4EDD3;
-    background-color: #283618    
+    background-color: #283618;
+    padding: 25px 50px; 
+    margin-top: 200px;   
 }
 footer p{
     font-size: 1.2em;
@@ -67,11 +104,17 @@ footer a{
 footer a:hover{
     color: #F4EDD3;
 }
-.icon{
-    width:80px;
+footer .social img{
+    padding-top: 15px;
 }
-.logo{  /*is there a way to make it rounded?*/
-    width: 100px
+.icon{
+    width: 90px;
+    padding-top: 10px;
+}
+.logo{  
+    padding-top: 5px;
+    width: 100px;
+    border-radius: 160px;
 }
 #hero-img{
     width: 100%
