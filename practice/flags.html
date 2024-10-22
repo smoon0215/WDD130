@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags</title>
+    <style>
+        body{
+            background: saddlebrown;
+        }
+        #blue{
+            background: blue;
+            /*width: 200px;*/
+            height: 200px;
+            margin: 0;
+            padding: 0;
+            grid-area: 1 / 1 / 1 / 2;
+        }
+        #white{
+            background: white;
+            /*width: 300px;*/
+            height: 200px;
+            margin: 0;
+            padding: 0;
+            grid-area: 1 / 2 / 1 / 3;
+        }
+        #red{
+            background: red;
+            width: 500px;
+            height: 200px;
+            margin: 0;
+            padding: 0;
+            grid-area: 2 / 1 / 2 / 3;
+        }
+        #chile {
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 0;
+            width: 500px;
+            height: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <!--Chile Flag -->>
+    <div id="chile">
+        <div id="blue"></div>
+        <div id="white"></div>
+        <div id="red"></div>
+    </div>
+
+
+</body>
+</html>
