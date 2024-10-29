@@ -23,6 +23,11 @@ body{
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 .button-box{
     text-align: center;
 }
@@ -34,12 +39,18 @@ main section{
 }
 header{
     background-color: #F4EDD3; /*might want to have rgba for transparency*/
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 .home-title{
     color:#A3B26C; /*subject to change */
     font-family: "Noto Serif Display", sans-serif;
     font-size: 2em;
     margin-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     text-align: center;

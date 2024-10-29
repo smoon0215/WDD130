@@ -7,5 +7,25 @@ paragraph font:
 */ 
 
 body{
-    background: #E6EED6
+    background: #E6EED6;
+    color:black
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: #1C2A40;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#857A67;
+}
+#headshot{
+    width: 150px;
+    height: 200px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 200px auto;
 }
