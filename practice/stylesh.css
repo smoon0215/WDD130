@@ -1,0 +1,34 @@
+body{
+    background: rgb(103, 142, 62);
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 200px auto;
+    background: rgb(112, 108, 97, 65%);
+    color: #540D6E;
+    height: 150px;
+}
+ul{
+    margin-top: -1px;
+}
+.logo{
+    grid-column: 1/2;
+    height: 150px;
+    width: 150px;
+}
+#halloween{
+    border: double 20px #540D6E;
+    border-radius: 20px;
+}
+h1{
+    float: right;
+    margin-top: 200px;
+}
+h2{
+    color: black;
+    text-shadow: 10px 5px rgb(84, 13, 110, 30%);
+}
