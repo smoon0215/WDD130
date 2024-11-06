@@ -174,3 +174,17 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+
+.car{
+  height: 400px;
+  width: 600px;
+}
+.racing{
+  height: 400px;
+  width: 400px;
+}
+.pizza{
+  height: 400px;
+  width: 500px;
+}
