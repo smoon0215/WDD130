@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Times, 'Times New Roman', serif;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: black;
+    font-family: Times, 'Times New Roman', serif;
+}
+span img{
+    width: 400px;
+    height: 300px;
+}
+.card{
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: white;
+    grid-column: 2/3;
+    border: 2px black solid;
+    border-radius: 20px;
+    overflow: hidden
+    
+}
+h3{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.base{
+    background: slateblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.base div{
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    border-left: slategray 2px solid;
+    border-right: slategray 2px solid;
+}
