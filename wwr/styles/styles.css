@@ -190,6 +190,25 @@ footer .social img{
     border-radius: 165px;
 }
 
+/* Page 2 - Rivers */
+/* .home-display{
+    
+} */
+.img1, .img2, .img3{
+    margin: 2px;
+    box-shadow: 5px 5px 10px #40798C;
+}
+.img1, .img3{
+    margin: 5px;
+    float: left;
+}
+.img2{
+    float: right;
+}
+.img3{
+    width: 300px;
+    height: 400px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
