@@ -207,6 +207,29 @@ footer .social img{
     height: 400px;
 }
 
+
+/* PAGE 3 CONTACT US */
+#feedback {
+    background-color: antiquewhite;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: block;  
+}
+.moveDown {
+    margin-top: 3em;
+}
+form {
+    display: inline-block;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
