@@ -85,10 +85,10 @@ header{
     font-size: 2em;
     margin-top: 10px;
 }
-h1 + h2{
+h2{
     color:#283618;   
 }
-h2{
+h3{
     margin:0;
 }
 .home-grid{
